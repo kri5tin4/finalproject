@@ -15,3 +15,6 @@
 .footerImg {
   width: 350px;
 }
+#gif {display: flex;
+justify-content: center;
+}
