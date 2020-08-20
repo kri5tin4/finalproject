@@ -1,0 +1,17 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+#main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerImg {
+  height: 266px;
+  width: 400px;
+}
+
+.footerImg {
+  width: 350px;
+}

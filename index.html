@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botany Quiz</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--This is the HEADER-->
+    <div id="header">
+      <img
+        src="https://images.unsplash.com/photo-1533046250133-82e44c907320?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        class="headerImg"
+      />
+      <div>
+        <h1>Bonkers About Botany?</h1>
+        <h2>Prove it!</h2>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1434995370582-7a85918b5e5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        class="headerImg"
+      />
+    </div>
+
+    <!--This is the MAIN PART-->
+    <!--Question 1-->
+    <div id="main">
+      <div>
+        <h3>Water in plants is transported by:</h3>
+        <form id="questionOne">
+          <input type="radio" id="xylem" name="questionOne" value="xylem" />
+          <label for="xylem">xylem</label>
+          <input
+            type="radio"
+            id="epidermis"
+            name="questionOne"
+            value="epidermis"
+          />
+          <label for="epidermis">epidermis</label>
+          <input type="radio" id="cambium" name="questionOne" value="cambium" />
+          <label for="cambium">cambium</label>
+          <input type="radio" id="phloem" name="questionOne" value="phloem" />
+          <label for="phloem">phloem</label>
+        </form>
+      </div>
+
+      <!--Question 2-->
+      <div>
+        <h3>
+          In the process of photosynthesis,plants use the energy of sunlight to
+          make carbon dioxide and water.
+        </h3>
+        <form id="questionTwo">
+          <input type="radio" id="true" name="questionTwo" value="true" />
+          <label for="true">True</label>
+          <input type="radio" id="false" name="questionTwo" value="false" />
+          <label for="false">False</label>
+        </form>
+      </div>
+
+      <!--Question 3-->
+
+      <div>
+        <h3>Which of these trees do not have annual growth rings?</h3>
+        <form id="questionThree">
+          <input
+            type="radio"
+            id="Banyan trees"
+            name="questionThree"
+            value="Banyan trees"
+          />
+          <label for="Banyan trees">Banyan trees</label>
+          <input
+            type="radio"
+            id="Oak trees"
+            name="questionThree"
+            value="Oak trees"
+          />
+          <label for="Oak trees">Oak trees</label>
+          <input
+            type="radio"
+            id="Palm trees"
+            name="questionThree"
+            value="Palm trees"
+          />
+          <label for="Palm trees">Palm trees</label>
+          <input
+            type="radio"
+            id="Pine trees"
+            name="questionThree"
+            value="Pine trees"
+          />
+          <label for="Pine trees">Pine trees</label>
+        </form>
+      </div>
+    </div>
+    <!--This is the FOOTER-->
+    <div id="footer">
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1525232505362-0769a7c3bb95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          class="footerImg"
+        />
+        <img src="./images/1.jpg" class="footerImg" />
+        <button type="button" onclick="quiz()">SUBMIT</button>
+        <img src="./images/4.jpg" class="footerImg" />
+        <img src="./images/6.jpg" class="footerImg" />
+      </div>
+    </div>
+    <div id="gif"></div>
+  </body>
+</html>
